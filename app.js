@@ -1,4 +1,4 @@
-const API = 'http://localhost:8080/api';
+const API = 'https://food-ordering-backend-qrj1.onrender.com/api';
 let foods = [], cart = JSON.parse(localStorage.getItem('foodie-cart') || '{}');
 let currentUser = null, activeCategory = 'All';
 const $ = (id) => document.getElementById(id);
